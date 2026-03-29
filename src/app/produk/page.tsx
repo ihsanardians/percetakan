@@ -50,14 +50,14 @@ export default function Produk() {
                   key={produk.id}
                   data-aos="fade-up"
                   data-aos-delay={delayAnimasi}
-                  className="bg-white group rounded-2xl overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300 border border-gray-100 flex flex-col"
+                  className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden group transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col"
                 >
                   {/* Gambar */}
-                  <div className="relative h-56 bg-gray-200 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
+                  <div className="relative h-56 bg-gray-50 overflow-hidden transition-all duration-500">
                     <img
                       src={produk.gambar}
                       alt={produk.nama}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     {/* Badge Kecil */}
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[#8A1538] text-xs font-bold px-3 py-1 rounded-full shadow-sm">

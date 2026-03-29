@@ -33,6 +33,24 @@ export default function DetailProduk({
     produk.varian && produk.varian.length > 0 ? produk.varian[0] : null,
   );
 
+  const handlePrev = () => {
+    if (!galeriTampil || galeriTampil.length <= 1) return;
+    const currentIndex = galeriTampil.indexOf(gambarAktif);
+    const isFirstSlide = currentIndex === 0;
+    // Jika gambar pertama, kembali ke paling akhir. Jika tidak, mundur 1.
+    const newIndex = isFirstSlide ? galeriTampil.length - 1 : currentIndex - 1;
+    setGambarAktif(galeriTampil[newIndex]);
+  };
+
+  const handleNext = () => {
+    if (!galeriTampil || galeriTampil.length <= 1) return;
+    const currentIndex = galeriTampil.indexOf(gambarAktif);
+    const isLastSlide = currentIndex === galeriTampil.length - 1;
+    // Jika gambar terakhir, kembali ke paling awal. Jika tidak, maju 1.
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setGambarAktif(galeriTampil[newIndex]);
+  };
+
   // 3. LOGIKA HARGA DAN WHATSAPP
   // Jika ada varian yang dipilih, gunakan harga varian. Jika tidak, gunakan harga default produk.
   const hargaTampil = varianAktif ? varianAktif.harga : produk.harga;
@@ -72,7 +90,7 @@ export default function DetailProduk({
           {/* --- BAGIAN KIRI: GALERI GAMBAR --- */}
           <div className="md:w-1/2 flex flex-col gap-4">
             {/* Gambar Utama (Besar) */}
-            <div className="bg-gray-100 relative h-[350px] md:h-[450px] rounded-2xl overflow-hidden border border-gray-100">
+            <div className="bg-gray-100 relative h-[350px] md:h-[450px] rounded-2xl overflow-hidden border border-gray-100 group">
               <img
                 src={gambarAktif}
                 alt={produk.nama}

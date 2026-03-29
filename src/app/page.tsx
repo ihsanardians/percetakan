@@ -7,7 +7,7 @@ import Link from "next/link";
 import TextType from "@/components/TextType";
 
 export default function Home() {
-  const nomorWhatsApp = "6281234567890"; // Ganti nomor WA di sini
+  const nomorWhatsApp = "6282127150205"; // Ganti nomor WA di sini
   // Kita hanya ambil 3 produk pertama sebagai "Produk Unggulan"
   const produkUnggulan = katalogProduk.slice(0, 3);
 
@@ -160,7 +160,7 @@ export default function Home() {
                 className="bg-white group rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 flex flex-col"
               >
                 {/* Gambar Produk */}
-                <div className="relative h-56 bg-gray-200 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
+                <div className="relative h-56 bg-gray-200 overflow-hidden transition-all duration-500">
                   <img
                     src={produk.gambar}
                     alt={produk.nama}

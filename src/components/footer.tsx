@@ -43,7 +43,7 @@ export default function Footer() {
           <h5 className="font-bold text-gray-900 mb-4">Kontak</h5>
           <div className="flex flex-col gap-2 text-sm">
             <p>Jl. Palem 1 No. 8, Bumi Arumsari, Kab. Cirebon</p>
-            <p>WhatsApp: +62 812 3456 7890</p>
+            <p>WhatsApp: +62 821 2715 0205</p>
             <p>Email: anjunjaya@gmail.com</p>
           </div>
         </div>

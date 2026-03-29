@@ -10,7 +10,7 @@ export default function Navbar() {
   // State untuk mengontrol buka/tutup menu di mobile
   const [isOpen, setIsOpen] = useState(false);
 
-  const nomorWhatsApp = "6281234567890"; // Ganti nomor WA di sini
+  const nomorWhatsApp = "6282127150205"; // Ganti nomor WA di sini
 
   const navLinks = [
     { name: "Beranda", href: "/" },
