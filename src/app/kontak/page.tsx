@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
 export default function KontakKami() {
-  const nomorWhatsApp = "6281234567890"; // Ganti dengan nomor WA percetakan
+  const nomorWhatsApp = "6282127150205"; // Ganti dengan nomor WA percetakan
   const pesanWA = "Halo, saya ingin bertanya mengenai layanan percetakan.";
 
   return (

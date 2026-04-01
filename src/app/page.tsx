@@ -252,11 +252,6 @@ export default function Home() {
                   {testi.komentar}
                 </p>
                 <div className="flex items-center gap-4 pt-6 border-t border-white/10">
-                  <img
-                    src={testi.avatar}
-                    alt={testi.nama}
-                    className="w-12 h-12 rounded-full border-2 border-[#D4AF37]"
-                  />
                   <div>
                     <h5 className="font-bold text-white">{testi.nama}</h5>
                     <p className="text-xs text-gray-300">{testi.perusahaan}</p>

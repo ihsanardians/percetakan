@@ -55,7 +55,7 @@ export default function DetailProduk({
   // Jika ada varian yang dipilih, gunakan harga varian. Jika tidak, gunakan harga default produk.
   const hargaTampil = varianAktif ? varianAktif.harga : produk.harga;
 
-  const nomorWhatsApp = "6281234567890";
+  const nomorWhatsApp = "6282127150205";
   const namaVarianTeks = varianAktif ? ` (Varian: ${varianAktif.nama})` : "";
   const pesanWA = `Halo, saya tertarik dengan layanan *${produk.nama}*${namaVarianTeks}. Boleh minta info cara pemesanannya?`;
   const linkWA = `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesanWA)}`;

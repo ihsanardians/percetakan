@@ -5,10 +5,10 @@ export const katalogProduk = [
     id: 1,
     nama: "Buku Yasin",
     deskripsi:
-      "Cetak buku Yasin dengan pilihan soft cover, hard cover, hingga bludru. Dikerjakan rapi dan nyaman digunakan, untuk keperluan tahlilan dan doa bersama.",
-    harga: 1000,
+      "Buku Yasin cetak custom — hadir sebagai souvenir tahlilan, pengajian 40 hari, 100 hari, hingga 1000 hari yang berkesan. Tersedia pilihan cover Soft Cover (laminasi doff/glossy, ringan & ekonomis) dan Hard Cover (elegan, kokoh, kesan premium). Desain cover bisa disesuaikan sepenuhnya dengan nama almarhum/almarhumah. Dicetak rapi, isi jelas terbaca, nyaman digenggam.",
+    harga: 8000,
     satuan: "per buku",
-    gambar: "/images/yasin-umum.jpeg",
+    gambar: "/images/yasin-umum.png",
     galeri: [],
     varian: [
       {
@@ -44,7 +44,7 @@ export const katalogProduk = [
     id: 2,
     nama: "Cetak Spanduk / Banner",
     deskripsi:
-      "Cetak banner dan spanduk dengan hasil rapi dan warna jelas. Cocok untuk promosi usaha, acara, dan berbagai kebutuhan lainnya",
+      "Promosi usaha Anda layak tampil dengan visual yang kuat dan warna yang tajam. Spanduk & banner kami dicetak dengan mesin digital printing resolusi tinggi — warna vivid, tahan cuaca, tidak mudah pudar. Cocok untuk promosi toko, acara pernikahan, kampanye produk, hingga dekorasi event. Ukuran bebas sesuai kebutuhan.",
     harga: 25000,
     satuan: "per meter persegi",
     gambar: "/images/banner-umum.jpeg",
@@ -55,8 +55,8 @@ export const katalogProduk = [
     id: 3,
     nama: "Cetak Undangan",
     deskripsi:
-      "Bahan kertas Art Carton tebal, desain bisa *custom* sesuka hati.",
-    harga: 1500,
+      "Sampaikan momen spesial Anda dengan undangan yang elegan dan berkesan. Tersedia tiga pilihan bahan: Kertas Tipis (BC) untuk kebutuhan ekonomis, Kertas Sedang (Jasmine) dengan tekstur lembut premium, dan Kertas Tebal (Art Carton) untuk tampilan mewah yang berkesan. Desain bisa pilih sesuai tema pernikahan, aqiqah, khitanan, atau acara lainnya..",
+    harga: 2500,
     satuan: "per lembar",
     gambar: "/images/undangan-umum.jpg",
     galeri: [
@@ -92,7 +92,7 @@ export const katalogProduk = [
     id: 4,
     nama: "Kwitansi/Nota",
     deskripsi:
-      "Cetak 1 sisi atau 2 sisi, sudah termasuk box. Minimal order 1 box.",
+      "Tampilkan identitas bisnis Anda di setiap transaksi. Nota & kwitansi custom dengan logo dan nama usaha Anda — dicetak 1 sisi atau 2 sisi, rapi dan siap pakai. Minimal order 500 lembar. Cocok untuk toko, warung, bengkel, hingga usaha jasa apapun.",
     harga: 35000,
     satuan: "per box (isi 100)",
     gambar: "/images/kwitansi-umum.jpeg",
@@ -102,9 +102,10 @@ export const katalogProduk = [
   {
     id: 5,
     nama: "Brosur / Flyer",
-    deskripsi: "Bahan Art Paper 150gr, cetak full color, cocok untuk promosi.",
+    deskripsi:
+      "Jangkau lebih banyak pelanggan dengan brosur full color yang menarik perhatian. Dicetak di atas Art Paper 150gr berkualitas — warna cerah, hasil tajam, terasa premium di tangan. Ideal untuk promosi produk, launching usaha, acara komunitas, hingga kampanye sekolah. Semakin banyak dicetak, semakin hemat!",
     harga: 800,
-    satuan: "per lembar (min. 500)",
+    satuan: "per lembar (min. 100)",
     gambar: "/images/brosur-umum.jpeg",
     varian: [],
     galeri: [],
@@ -112,9 +113,10 @@ export const katalogProduk = [
   {
     id: 6,
     nama: "Cetak Buku",
-    deskripsi: "Bahan Art Paper 150gr, cetak full color, cocok untuk promosi.",
-    harga: 800,
-    satuan: "per lembar (min. 500)",
+    deskripsi:
+      "Dari buku resep, modul sekolah, buku doa, hingga profil perusahaan — semua bisa kami cetak dengan hasil profesional. Menggunakan Art Paper 150gr dengan cetak full color yang menghasilkan tampilan bersih, berwarna, dan enak dibaca. Cocok untuk UMKM, lembaga pendidikan, komunitas, maupun penerbitan mandiri.",
+    harga: 1000,
+    satuan: "per lembar (termasuk cover & jilid)",
     gambar: "/images/buku-umum.jpeg",
     varian: [],
     galeri: [],
@@ -122,7 +124,8 @@ export const katalogProduk = [
   {
     id: 7,
     nama: "Kalender",
-    deskripsi: "Bahan Art Paper 150gr, cetak full color, cocok untuk promosi.",
+    deskripsi:
+      "Kalender custom adalah media promosi paling cost-effective — sekali cetak, nama usaha Anda hadir di hadapan pelanggan selama 365 hari. Dicetak di Art Paper 150gr dengan warna cerah dan tahan lama. Tersedia untuk kebutuhan perusahaan, komunitas, instansi, maupun souvenir akhir tahun.",
     harga: 800,
     satuan: "per lembar (min. 500)",
     gambar: "/images/kalender-umum.jpeg",

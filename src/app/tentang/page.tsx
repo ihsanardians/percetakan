@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Link from "next/link";
 
 export default function TentangKami() {
-  const nomorWhatsApp = "6281234567890"; // Ganti dengan nomor WA yang sesuai
+  const nomorWhatsApp = "6282127150205"; // Ganti dengan nomor WA yang sesuai
 
   return (
     <main className="bg-white min-h-screen text-gray-800 antialiased font-sans flex flex-col overflow-x-hidden">
@@ -48,7 +48,7 @@ export default function TentangKami() {
             />
             {/* Badge Pengalaman */}
             <div className="absolute -bottom-6 -left-6 bg-[#D4AF37] text-white p-6 rounded-2xl shadow-lg border-4 border-white">
-              <p className="text-4xl font-black mb-1">10+</p>
+              <p className="text-4xl font-black mb-1">20+</p>
               <p className="text-sm font-bold uppercase tracking-wider">
                 Tahun
                 <br />
@@ -63,22 +63,33 @@ export default function TentangKami() {
               Tentang Perusahaan
             </h2>
             <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Dedikasi Terhadap Detail & Kecepatan.
+              Kualitas yang Tidak Perlu Banyak Bicara.
             </h3>
 
             <div className="space-y-6 text-gray-600 leading-relaxed mb-8">
               <p>
-                Berawal dari sebuah toko kecil yang melayani fotokopi dan cetak
-                dokumen ringan, kami terus berkembang dan berinovasi seiring
-                dengan tingginya permintaan pasar akan hasil cetak berkualitas
-                premium.
+                Anjun Jaya dimulai bukan dari kantor atau mesin besar tapi dari
+                semangat seorang owner yang rela berjalan dari pintu ke pintu,
+                menawarkan jasa cetak kepada siapa saja yang mau mendengar.
+                Modal awalnya hanya sebuah meja sablon dan ketekunan yang tak
+                mudah padam.
               </p>
               <p>
-                Saat ini, kami telah dilengkapi dengan berbagai mesin cetak
-                offset dan digital printing berteknologi mutakhir. Tim kami
-                terdiri dari operator mesin berpengalaman dan *quality control*
-                yang ketat, memastikan tidak ada satu pun produk cacat yang
-                sampai ke tangan Anda.
+                Pelan tapi pasti, kepercayaan mulai datang. Beberapa toko buku
+                dan percetakan besar mulai melirik dan menjadi mitra dan dari
+                situlah nama Anjun Jaya mulai dikenal.
+              </p>
+              <p>
+                Lebih dari 20 tahun bukan perjalanan yang selalu mulus. Ada masa
+                kejayaan, ada masa yang berat. Tapi satu hal yang tidak pernah
+                berubah: pelanggan tetap kembali. Bukan karena kami yang
+                terbesar, tapi karena kualitas hasil cetak kami — rapi, tajam,
+                dan berkesan — yang selalu berbicara sendiri.
+              </p>
+              <p>
+                Sampai hari ini, Anjun Jaya masih beroperasi dengan skala
+                produksi rumahan. Bukan kelemahan — justru itulah yang membuat
+                kami bisa memberikan perhatian penuh pada setiap pesanan Anda.
               </p>
             </div>
 
@@ -87,16 +98,16 @@ export default function TentangKami() {
                 <div className="text-[#8A1538] text-3xl mb-3">🎯</div>
                 <h4 className="font-bold text-gray-900 mb-1">Visi Kami</h4>
                 <p className="text-sm text-gray-500">
-                  Menjadi mitra percetakan terpercaya nomor 1 dengan standar
-                  kualitas internasional.
+                  Menjadi percetakan yang selalu jadi pilihan pertama — bukan
+                  karena paling besar, tapi karena paling bisa diandalkan.
                 </p>
               </div>
               <div className="bg-gray-50 p-5 rounded-2xl border border-gray-100">
                 <div className="text-[#8A1538] text-3xl mb-3">🚀</div>
                 <h4 className="font-bold text-gray-900 mb-1">Misi Kami</h4>
                 <p className="text-sm text-gray-500">
-                  Memberikan solusi cetak cepat, harga transparan, dan pelayanan
-                  ramah.
+                  Melayani setiap pesanan dengan sepenuh hati — hasil rapi,
+                  harga jujur, komunikasi ramah.
                 </p>
               </div>
             </div>
@@ -112,7 +123,7 @@ export default function TentangKami() {
               { angka: "5000+", label: "Proyek Selesai" },
               { angka: "99%", label: "Tingkat Kepuasan" },
               { angka: "24/7", label: "Dukungan Pelanggan" },
-              { angka: "50+", label: "Mitra Bisnis" },
+              { angka: "10+", label: "Mitra Bisnis" },
             ].map((stat, i) => (
               <div
                 key={i}

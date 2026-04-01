@@ -77,7 +77,7 @@ export default function Produk() {
                     {/* Harga */}
                     <div className="pt-4 border-t border-gray-100 mb-5">
                       <p className="text-xs text-gray-400 mb-1">
-                        Harga Estimasi
+                        Harga Mulai Dari
                       </p>
                       <p className="text-xl font-black text-[#D4AF37]">
                         Rp {produk.harga.toLocaleString("id-ID")}
