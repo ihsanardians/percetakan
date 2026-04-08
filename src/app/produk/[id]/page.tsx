@@ -180,7 +180,7 @@ export default function DetailProduk({
 
             {/* Area Harga Dinamis */}
             <div className="mb-8">
-              <p className="text-sm text-gray-400 mb-1">Total Estimasi Harga</p>
+              <p className="text-sm text-gray-400 mb-1">Harga Mulai Dari</p>
               <p className="text-3xl font-black text-[#8A1538]">
                 Rp {hargaTampil.toLocaleString("id-ID")}
                 <span className="text-lg font-normal text-gray-500 ml-2">
